@@ -14,9 +14,9 @@ function M.config()
   end
 
   dashboard.section.header.val = {
-    [[ NeoDev ]],
-    [[ PurSuite ]],
-    [[ Om-Namah-Shivaya]],
+    [[            NeoDev              ]],
+    [[   PurSuite by Sundhara Krishna ]],
+    [[       Om-Namah-Shivaya         ]],
  
   }
 
