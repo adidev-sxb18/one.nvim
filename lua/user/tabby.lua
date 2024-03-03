@@ -92,15 +92,15 @@ return {
         line.tabs().foreach(function(tab)
           local hl = tab.is_current() and theme.current_tab or theme.tab
           return {
-            -- line.sep("", hl, theme.fill),
-            line.sep("", hl, theme.fill),
+            line.sep("", hl, theme.fill),
+            -- line.sep("", hl, theme.fill),
             tab.is_current() and "" or "",
             tab_name(tab),
             -- tab.close_btn("󰅖 "),
             -- window_count(tab),
             -- change_mark(tab),
-            -- line.sep(" ", hl, theme.fill),
-            line.sep(" ", hl, theme.fill),
+            line.sep(" ", hl, theme.fill),
+            -- line.sep(" ", hl, theme.fill),
             hl = hl,
             margin = " ",
           }

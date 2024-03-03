@@ -35,7 +35,7 @@ vim.opt.signcolumn = "yes" -- always show the sign column, otherwise it would sh
 vim.opt.wrap = false -- display lines as one long line
 vim.opt.scrolloff = 0
 vim.opt.sidescrolloff = 8
-vim.opt.guifont = "monospace:h17" -- the font used in graphical neovim applications
+--vim.opt.guifont = "monospace:h17" -- the font used in graphical neovim applications
 vim.opt.title = false
 -- colorcolumn = "80",
 -- colorcolumn = "120",
@@ -52,4 +52,6 @@ vim.cmd [[set iskeyword+=-]]
 vim.g.netrw_banner = 0
 vim.g.netrw_mouse = 2
 vim.g.mellow_transparent = true
+vim.g.mellow_bold_variables = true
+vim.g.mellow_italic_functions = true
 
