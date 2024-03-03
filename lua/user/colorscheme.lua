@@ -6,7 +6,6 @@ local M = {
 
 function M.config()
   vim.cmd.colorscheme "mellow"
-  vim.g.mellow_transparent = true
 end
 
 return M
